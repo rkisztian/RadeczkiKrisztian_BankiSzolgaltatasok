@@ -52,7 +52,7 @@ public class Bank {
     public long getOsszHitelkeret() {
         long ossz = 0;
         for (Szamla aktualis : szamlaLista) {
-            if (szamlaLista instanceof HitelSzamla) {
+            if (aktualis instanceof HitelSzamla) {
                 ossz += ((HitelSzamla) aktualis).getHitelKeret();
             }
         }
