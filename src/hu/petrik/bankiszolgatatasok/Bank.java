@@ -35,7 +35,7 @@ public class Bank {
         return ossz;
     }
 
-    public Szamla getLegnagyobbEgyenlegSzamla(Tulajdonos tulajdonos){
+    public Szamla getLegnagyobbEgyenleguSzamla(Tulajdonos tulajdonos){
         Szamla legnagyobb = null;
         for (Szamla aktualis : szamlaLista) {
 
